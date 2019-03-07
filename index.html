@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>BlockTube</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body id="top">
+
+	<section id="banner" data-video="images/banner">
+		<div class="inner">
+			<header>
+				<h1>BlockTube</h1>
+				<p>A web application for journalists based on a decentralised cloud service<br />
+					and ethereum blockchain network.</p>
+			</header>
+			<a href="#main" class="more">Learn More</a>
+		</div>
+	</section>
+
+	<!-- Main -->
+	<div id="main">
+		<div class="inner">
+			<!-- Boxes -->
+			<div class="thumbnails">
+
+				<div class="box">
+					<video data-dashjs-player="" autoplay="" src="http://rdmedia.bbc.co.uk/dash/ondemand/testcard/1/client_manifest-events.mpd"
+					 controls="true" class="image fit" width="200" height="200"></video>
+					<div class="inner">
+						<h3>BBC adaptive streaming sample</h3>
+						<p>Stream using a manifest file with dash.JS</p>
+						<a href="" class="button fit">Watch</a>
+					</div>
+				</div>
+
+				<div class="box">
+					<video data-dashjs-player="" autoplay="" src="http://ipfs.io/ipfs/QmWEWWhZyq1UV99Vfw1UgjMn21YKWTXFRXWzjJJpn3kyq6"
+					 controls="true" class="image fit" width="200" height="200"></video>
+					<div class="inner">
+						<h3>Stream an uploaded video</h3>
+						<p>Streaming from ipfs using dash.js</p>
+						<a href="" class="button style3 fit">Watch</a>
+					</div>
+				</div>
+
+				<div class="box">
+					<video data-dashjs-player="" autoplay="" src="https://ipfs.io/ipfs/QmQc33qoCVyniMMiBKiQ5ZreHxS6ooZoQshwKLhz2BRrRp"
+					 controls="true" class="image fit" width="200" height="200"></video>
+					<div class="inner">
+						<h3>Stream an recorded video</h3>
+						<p>From ipfs using dash.js</p>
+						<a href="https://youtu.be/s6zR2T9vn2c" class="button style3 fit" data-poptrox="youtube,800x400">Watch</a>
+					</div>
+				</div>
+
+				<div class="box">
+					<video data-dashjs-player="" autoplay="" src="https://bitmovin-a.akamaihd.net/content/playhouse-vr/mpds/105560.mpd"
+					 controls="true" class="image fit" width="200" height="200"></video>
+					<div class="inner">
+						<h3>360 and VR</h3>
+						<p>using dash.js</p>
+						<a href="" class="button style2 fit" data-poptrox="youtube,800x400">Watch</a>
+					</div>
+				</div>
+
+				<div class="box">
+					<video data-dashjs-player="" autoplay="" src="https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd" controls="true"
+					 class="image fit" width="200" height="200"></video>
+					<div class="inner">
+						<h3>Adaptive streaming with dash.js</h3>
+						<p>Video playback with differnt bitrates.</p>
+						<a href="" class="button style3 fit" data-poptrox="youtube,800x400">Watch</a>
+					</div>
+				</div>
+
+				<div class="box">
+					<video data-dashjs-player="" autoplay="" src="http://yt-dash-mse-test.commondatastorage.googleapis.com/media/car-20120827-manifest.mpd"
+					 controls="true" class="image fit" width="200" height="200"></video>
+					<div class="inner">
+						<h3>Another stream using manifest file</h3>
+						<p>Dash js with manifest file.</p>
+						<a href="" class="button fit" data-poptrox="youtube,800x400">Watch</a>
+					</div>
+				</div>
+				<div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<h2>BlockTube</h2>
+			<p>In this project we are trying to apply blockchain technology to server-less media streaming using the
+				InterPlanetary File System (IPFS).In order to save and retrieve big amounts of data (videos in this project) we
+				used IPFS to address this data by saving the permanent, immutable IPFS hashes to the Blockchain. </p>
+			<p class="copyright">&copy; BlockTube</p>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+	<script src="../../dist/dash.all.debug.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
